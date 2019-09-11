@@ -1,0 +1,47 @@
+body {
+    background: #e0e0e0;
+    display: flex;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+    background: #fff;
+    border: 2px solid #cdcdcd;
+}
+
+#title {
+    background: url(https://res.cloudinary.com/drda5zneo/image/upload/v1568230782/FB_IMG_15682140636163779_knptru.jpg);
+    background-size: cover;
+    color: #fff;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    padding: 0;
+}
+
+h1 {
+    font-size: 200px;
+    font-family: sans-serif;
+    text-align: center;
+    text-shadow: 0 0 1px rgba(0,0,0,.1);
+    margin: 0;
+    padding: 0;
+}
+
+@media (max-width:600px){
+    .form{
+    float: none;
+    text-align: center;
+    align-content: center;
+    }
+    div.title{
+        font-size: 30px;
+    }
+  }
+  @media (min-width:601px) {
+    div.title{
+        font-size: 80px;
+    } 
+  }

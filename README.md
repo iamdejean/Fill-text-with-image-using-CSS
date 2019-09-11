@@ -1,1 +1,1 @@
-# Fill-text-with-image-using-CSS
+Using CSS to create a fill text image effect

@@ -5,7 +5,9 @@ First, I created an index.html file, markup have a h1 tag with an ID "title".
 The background-clip CSS property sets whether an element's background extends underneath its border box, padding box, or content box.
 
 background-clip: text;
+
 -webkit-background-clip: text;
+
 -webkit-text-fill-color: transparent;
 
 If the element has no background-image or background-color, this property will only have a visual effect when the border has transparent regions or partially opaque regions (due to border-style or border-image).
